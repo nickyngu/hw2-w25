@@ -35,6 +35,7 @@ img {
 div {
     min-height: 125px;
     padding: 20px;
+    border: none;
 }
 
 .introduction {
@@ -44,7 +45,7 @@ div {
     border: 3px white solid;
 }
 
-.red {
+div.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
@@ -81,7 +82,7 @@ div {
     text-align: left;
     margin-right: 50px;
     border-top: 2px white solid;
-    border-right: 5px white solid;
+    border-right: 5px white solid   ;
 }
 
 footer {
